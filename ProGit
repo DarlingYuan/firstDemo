@@ -1,0 +1,3 @@
+(1)git add :it's function depend on the status of the file self.
+(2)Local Operations hava three work area: git directory(repository)/working directory/ staging area.
+(3)git add /  git status  / git diff /git commit <-a or -m > /  git checkout  / git reflog /  git config --global
