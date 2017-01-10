@@ -1,3 +1,21 @@
 (1)git add :it's function depend on the status of the file self.
 (2)Local Operations hava three work area: git directory(repository)/working directory/ staging area.
-(3)git add /  git status  / git diff /git commit <-a or -m > /  git checkout  / git reflog /  git config --global
+(3)git add /  git status  / git diff --cached or --staged /git commit <-a or -m > /  git checkout  / git reflog /  git config --global
+(4)git log -p -2:last 2 commit content with diff.
+(5)git log --stat:show all log & show line num changed
+(6)git log :
+   -p : show all log with diff
+   --stat : show all log with modify file num
+   --shortstat 
+   --name-only :show all log with only the file list
+   --name-status : show logs with the file list which add / modify / delete
+   --abbrev-commit :show Before a few letters of SHA-1 
+   --relativ-date :show the recenty time log
+   --graph : show the commit history with ASCII graph.
+   --pretty : user the special format
+
+   -(n):show last recently "n" commit
+   --since,--after :show all the commit after the special time
+   --until,--before :show all the commit log after the special time
+   --author : show just all the log belongs to the author
+   --committer : show just all the log belongs to the commiter
