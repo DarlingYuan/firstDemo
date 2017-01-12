@@ -19,3 +19,6 @@
    --until,--before :show all the commit log after the special time
    --author : show just all the log belongs to the author
    --committer : show just all the log belongs to the commiter
+
+
+(7)git commit --amend : modify last commit.
