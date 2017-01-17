@@ -46,14 +46,14 @@
 (7)git mv: git rm --cashed orig; mv orig new; git add new.
 (8)git stash: save changes made in the current index and working directroy for later.
 ================Branching and Merging==============================
-(1)git brantch: list,create and manage working contexts.
+(1)git branch: list,create and manage working contexts.
 (2)git checkout <branch_name> :switch to a new branch context.
 (3)git merge: merge a branch context to you current one.
 (4)git log: show commit history of a branch.
 
 ===============Sharing and Updating Projects=======================
 (1)git remote: list,add and delete repository aliases.
-(2)git fetch: download new branches and data from a remote repository.
+(2)git fetch: download new branches and data from a remote repository,updata you origin/master branch , but not merge you local current branch.
 (3)git pull: fetch from a remote repository and try to merge ino the current branch.
 (4)git push: push you new branches and data to a remote repository
 
