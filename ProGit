@@ -39,6 +39,26 @@
 (1)git config --global alias.[rename] [git_commands] : alias git commands
 
 (7)<tab>: auto_completed or auto_prompt
+================Basic Snapshotting===============================
+(1)git add: adds file contents to the staging area.
+(2)git status: view the status of your files in the working directory and staging area.
+(3)git diff: shows diff of what is staged and what is modified bu unstaged.
+(4)git commit: record a snapshot of the staging area.
+(5)git reset: undo change and commit.
+(6)git rm: remove files from the staging area.
+(7)git mv: git rm --cashed orig; mv orig new; git add new.
+(8)git stash: save changes made in the current index and working directroy for later.
+================Branching and Merging==============================
+(1)git branch: list,create and manage working contexts.
+(2)git checkout <branch_name> :switch to a new branch context.
+(3)git merge: merge a branch context to you current one.
+(4)git log: show commit history of a branch.
+
+===============Sharing and Updating Projects=======================
+(1)git remote: list,add and delete repository aliases.
+(2)git fetch: download new branches and data from a remote repository,updata you origin/master branch , but not merge you local current branch.
+(3)git pull: fetch from a remote repository and try to merge ino the current branch.
+(4)git push: push you new branches and data to a remote repository
 ======================================================
 https://github.com/git : git source web
 https://git-scm.com/ : you can kown every thing about git
